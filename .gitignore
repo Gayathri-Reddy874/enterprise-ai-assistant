@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Virtual environment
+myenv/
+venv/
+
+# Runtime-generated
+data/
+faiss_index/
+memory.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/editor
+.DS_Store
+.vscode/
