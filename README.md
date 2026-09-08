@@ -27,7 +27,7 @@ This project implements an **Enterprise AI Assistant** that answers natural-lang
 - **Research Agent** - deep-dive analysis via LLM
 - **Retrieval Agent** - RAG over a Pinecone index, falling back to a local FAISS index
 - **SQL Agent** - converts natural language to SQL and executes it against MySQL
-- **Report Agent** — formats the final answer differently depending on the caller's role (`admin` / `analyst` / `viewer`)
+- **Report Agent** - formats the final answer differently depending on the caller's role (`admin` / `analyst` / `viewer`)
 - **Validation Agent** — a lightweight sanity check before returning a response
 
 A simple `Memory` component keeps the last few turns of conversation so follow-up questions have context.
