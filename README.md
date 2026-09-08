@@ -24,7 +24,7 @@ A multi-agent Retrieval-Augmented Generation (RAG) assistant for enterprise use 
 
 This project implements an **Enterprise AI Assistant** that answers natural-language questions by routing them to the right specialist:
 
-- **Research Agent** — deep-dive analysis via LLM
+- **Research Agent** - deep-dive analysis via LLM
 - **Retrieval Agent** — RAG over a Pinecone index, falling back to a local FAISS index
 - **SQL Agent** — converts natural language to SQL and executes it against MySQL
 - **Report Agent** — formats the final answer differently depending on the caller's role (`admin` / `analyst` / `viewer`)
