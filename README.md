@@ -16,7 +16,6 @@
 **Description:**
 A multi-agent Retrieval-Augmented Generation (RAG) assistant for enterprise use cases. A FastAPI backend routes user queries to specialized agents - research, document retrieval (Pinecone + FAISS), SQL (natural-language-to-SQL over MySQL), and role-aware report generation - with a validation step and short-term conversational memory. A Streamlit UI provides file upload and chat. Includes two alternate multi-agent orchestration paths (AutoGen and CrewAI) alongside the primary custom `Manager` router, plus AWS Bedrock as the underlying LLM.
 
-**Top keywords:** `multi-agent-systems` `RAG` `LLM-orchestration` `FastAPI` `AWS-Bedrock` `vector-search`
 
 ---
 
