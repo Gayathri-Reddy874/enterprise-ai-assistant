@@ -34,6 +34,8 @@ Two additional orchestration styles are included for comparison/experimentation:
 - `autogen/` - a round-robin multi-agent group chat built with AutoGen
 - `crew/` - a sequential pipeline built with CrewAI
 
+---
+
 ## Architecture
 
 ```
