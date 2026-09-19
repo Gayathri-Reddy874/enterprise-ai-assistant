@@ -247,6 +247,8 @@ Try the same question across all three roles to see the prefix change.
 - `core/llm.py`'s Bedrock request/response format (`max_gen_len`, `result["generation"]`) matches Meta Llama models on Bedrock specifically; pointing `BEDROCK_MODEL_ID` at a different model family (Titan, Claude, Mistral) will return a 200 response with no error but an empty generated string, since the response body won't contain a `"generation"` key.
 - `app/main.py` creates the local `data/` upload directory automatically on startup (`os.makedirs("data", exist_ok=True)`) so a fresh clone doesn't fail on first upload.
 
+---
+
 ## Author
 
 **Gayathri (Mallareddygari Gayathri)**
