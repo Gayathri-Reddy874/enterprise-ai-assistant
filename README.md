@@ -228,6 +228,8 @@ The **Role** dropdown (`admin` / `analyst` / `viewer`) only changes how `agents/
 
 Try the same question across all three roles to see the prefix change.
 
+---
+
 ## API Endpoints
 
 | Method | Endpoint  | Description                              |
