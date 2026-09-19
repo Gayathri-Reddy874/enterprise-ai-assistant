@@ -176,6 +176,8 @@ docker run -p 8000:8000 --env-file .env enterprise-ai-assistant
 ```
 Note: the current `Dockerfile` only runs the FastAPI backend; run Streamlit separately or add a second service/compose file for the frontend.
 
+---
+
 ## Screenshots
 
 **App preview**
