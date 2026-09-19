@@ -119,6 +119,8 @@ enterprise-ai-assistant/
 - **Document processing:** `pypdf`, `python-docx`/`docx2txt`, LangChain loaders/splitters
 - **Auth:** PyJWT
 
+---
+
 ## Configuration
 
 Create a `.env` file in the project root:
