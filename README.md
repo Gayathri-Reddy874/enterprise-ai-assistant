@@ -106,6 +106,8 @@ enterprise-ai-assistant/
 └── .env                          # Not committed - see Configuration below
 ```
 
+---
+
 ## Tech Stack
 
 - **Backend:** FastAPI, Uvicorn
