@@ -230,7 +230,7 @@ order_id,customer_name,region,product,quantity,unit_price,order_date
 | Research Agent | `"research"` or `"analyze"` | `Research and analyze current trends in enterprise AI adoption` |
 | Retrieval Agent (default) | anything else | `What does the uploaded document say about Widget A sales?` |
 
-Note that `agents/sql_agent.py` passes your text straight to `database/mysql.py` as a raw query — it does not do natural-language-to-SQL conversion (that logic lives separately, unused, in `tools/sql_tool.py`). So the SQL route only works with an actual SQL statement, against a table that already exists in the `enterprise_ai` database (`enterprise.sql` only creates the empty database, no tables).
+Note that `agents/sql_agent.py` passes your text straight to `database/mysql.py` as a raw query - it does not do natural-language-to-SQL conversion (that logic lives separately, unused, in `tools/sql_tool.py`). So the SQL route only works with an actual SQL statement, against a table that already exists in the `enterprise_ai` database (`enterprise.sql` only creates the empty database, no tables).
 
 ### Role switching
 
