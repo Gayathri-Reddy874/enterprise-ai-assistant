@@ -194,6 +194,8 @@ Note: the current `Dockerfile` only runs the FastAPI backend; run Streamlit sepa
 |---|---|---|
 | ![Admin results](Screenshots/Admin_results.png) | ![Analyst results](Screenshots/Analyst_results.png) | ![Summary results](Screenshots/Summary.png) |
 
+---
+
 ## Testing the App
 
 Once both the backend and Streamlit frontend are running, use the following to exercise each part of the flow.
