@@ -218,7 +218,7 @@ order_id,customer_name,region,product,quantity,unit_price,order_date
 1008,Beta LLC,South,Widget C,15,99.99,2026-04-02
 ```
 
-> **Note:** `app/main.py` reads and chunks the uploaded file, then calls `retrieval_agent.index_documents()` to embed it into both Pinecone and FAISS, so it becomes searchable immediately for retrieval questions. Because the Streamlit frontend re-uploads the current file on every UI interaction (not just on Submit), re-uploading the same file repeatedly will index duplicate chunks over time — see Known Limitations.
+> **Note:** `app/main.py` reads and chunks the uploaded file, then calls `retrieval_agent.index_documents()` to embed it into both Pinecone and FAISS, so it becomes searchable immediately for retrieval questions. Because the Streamlit frontend re-uploads the current file on every UI interaction (not just on Submit), re-uploading the same file repeatedly will index duplicate chunks over time - see Known Limitations.
 
 ### Sample questions, by routed agent
 
