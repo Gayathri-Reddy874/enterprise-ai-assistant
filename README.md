@@ -59,6 +59,8 @@ agents/report_agent.py → agents/validation_agent.py → core/memory.py
 
 `tools/` holds file ingestion utilities (`loader.py`, `chunker.py`) used by the `/upload` endpoint, plus `mcp_tools.py` and `sql_tool.py` for tool-style access to SQL/search.
 
+---
+
 ## Project Structure
 
 ```
