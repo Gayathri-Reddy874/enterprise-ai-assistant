@@ -32,7 +32,7 @@ A simple `Memory` component keeps the last few turns of conversation so follow-u
 
 Two additional orchestration styles are included for comparison/experimentation:
 - `autogen/` - a round-robin multi-agent group chat built with AutoGen
-- `crew/` — a sequential pipeline built with CrewAI
+- `crew/` - a sequential pipeline built with CrewAI
 
 ## Architecture
 
