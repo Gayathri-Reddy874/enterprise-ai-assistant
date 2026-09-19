@@ -252,7 +252,7 @@ Try the same question across all three roles to see the prefix change.
 **Gayathri (Mallareddygari Gayathri)**
 
 - GitHub: [@Gayathri-Reddy874](https://github.com/Gayathri-Reddy874)
-- LinkedIn: [add your LinkedIn URL here]
+
 
 ## License
 
