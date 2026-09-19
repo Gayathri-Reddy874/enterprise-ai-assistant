@@ -99,7 +99,7 @@ enterprise-ai-assistant/
 ├── enterprise.sql
 ├── requirements.txt
 ├── Dockerfile
-└── .env                          # Not committed — see Configuration below
+└── .env                          # Not committed - see Configuration below
 ```
 
 ## Tech Stack
