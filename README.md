@@ -134,6 +134,8 @@ MYSQL_DB=enterprise_ai
 JWT_SECRET=a-strong-random-secret
 ```
 
+---
+
 ## How to Run
 
 ### 1. Clone and set up a virtual environment
