@@ -235,6 +235,8 @@ Try the same question across all three roles to see the prefix change.
 | POST   | `/upload` | Upload a PDF/CSV/DOCX file for ingestion  |
 | POST   | `/query`  | Ask a question (`q`) as a given `role`    |
 
+---
+
 ## Known Limitations / Roadmap
 
 - `database/mysql.py` executes generated SQL directly without parameterization — should be sandboxed or restricted to read-only/allow-listed queries before any production use.
