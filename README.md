@@ -220,7 +220,7 @@ Note that `agents/sql_agent.py` passes your text straight to `database/mysql.py`
 
 ### Role switching
 
-The **Role** dropdown (`admin` / `analyst` / `viewer`) only changes how `agents/report_agent.py` formats the same underlying answer — there's no difference in what data or agent access each role gets:
+The **Role** dropdown (`admin` / `analyst` / `viewer`) only changes how `agents/report_agent.py` formats the same underlying answer - there's no difference in what data or agent access each role gets:
 
 - **admin** → `Detailed Report: {data}`
 - **analyst** → `Analysis: {data}`
