@@ -31,7 +31,7 @@ This project implements an **Enterprise AI Assistant** that answers natural-lang
 A simple `Memory` component keeps the last few turns of conversation so follow-up questions have context.
 
 Two additional orchestration styles are included for comparison/experimentation:
-- `autogen/` — a round-robin multi-agent group chat built with AutoGen
+- `autogen/` - a round-robin multi-agent group chat built with AutoGen
 - `crew/` — a sequential pipeline built with CrewAI
 
 ## Architecture
